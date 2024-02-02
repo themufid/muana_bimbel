@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bimbel Pendidikan Terbaik di Lampung</title>
+    <link
+      rel="shortcut icon"
+      href=""
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <style>
+    nav ul li:nth-child(3) a {
+      color: #2447f9;
+    }
+    @media screen and (max-width: 576px) {
+      nav ul li:nth-child(3) a {
+        color: white !important;
+      }
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="nav-logo">
+        <h3>
+          <a href="../index.html">Muana<span>Bimbel</span></a>
+        </h3>
+      </div>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="../index.html">Home</a></li>
+        <li><a class="nav-link" href="about-us.html">Tentang</a></li>
+        <li><a class="nav-link" href="courses.html">Program</a></li>
+        <li><a class="nav-link" href="../index.html#contact">Narahubung</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="courses">
+        <div class="courses-heading">
+          <h1>Katalog Kelas (All Courses)</h1>
+          <p>Pelajari ilmu terbaru dari Tutor yang berpengalaman di bidangnya</p>
+          <ul class="button-filter">
+            <li class="active">All Courses</li>
+            <li>Free</li>
+            <li>TK</li>
+            <li>SD</li>
+            <li>SMP</li>
+            <li>SMA</li>
+          </ul>
+        </div>
+        <div class="courses-card-wrapper">
+          <div class="course-card" data-filter="TK">
+            <img
+              src="../images/courses-images/calistung-tk.png"
+              alt="calistung"
+            />
+            <div class="course-description">
+              <h1>Calistung</h1>
+              <div class="discount-class">
+                <p>Rp 500,000</p>
+                <p>Rp 200,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(1,800)</span>
+              </div>
+            </div>
+
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="SD">
+            <img
+              src="../images/courses-images/homevisit.png"
+              alt="flutter dev"
+            />
+            <div class="course-description">
+              <h1>Semua Mata Pelajaran</h1>
+              <div class="discount-class">
+                <p>Rp 600,000</p>
+                <p>Rp 250,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(2,401)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+
+          <div class="course-card" data-filter="SMP">
+            <img src="../images/courses-images/ipa-smp.png" alt="IPA" />
+            <div class="course-description">
+              <h1>IPA</h1>
+              <div class="discount-class">
+                <p>Rp 650,000</p>
+                <p>Rp 300,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(765)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          
+          <div class="course-card" data-filter="SMA">
+            <img
+              src="../images/courses-images/ipa-sma.png"
+              alt="IPA"
+            />
+            <div class="course-description">
+              <h1>IPA</h1>
+              <div class="discount-class">
+                <p>Rp 700,000</p>
+                <p>Rp 350,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(450)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          
+          <div class="course-card" data-filter="SMP">
+            <img
+              src="../images/courses-images/ips-smp.png"
+              alt="IPS"
+            />
+            <div class="course-description">
+              <h1>IPS</h1>
+              <div class="discount-class">
+                <p>Rp 650,000</p>
+                <p>Rp 300,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(675)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          
+          <div class="course-card" data-filter="SMP">
+            <img
+              src="../images/courses-images/mtk-smp.png"
+              alt="MTK"
+            />
+            <div class="course-description">
+              <h1>Matematika</h1>
+              <div class="discount-class">
+                <p>Rp 650,000</p>
+                <p>Rp 300,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(825)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="SMP">
+            <img
+              src="../images/courses-images/b.inggris-smp.png"
+              alt="b. inggris"
+            />
+            <div class="course-description">
+              <h1>Bahasa Inggris</h1>
+              <div class="discount-class">
+                <p>Rp 650,000</p>
+                <p>Rp 300,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(625)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="Free">
+            <img
+              src="../images/courses-images/Calistung.png"
+              alt="TK"
+            />
+            <div class="course-description">
+              <h1>TK / Paud</h1>
+              <div class="discount-class">
+                <p></p>
+                <p>Rp 0</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(1,815)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Free Trial Class</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="Free">
+            <img
+              src="../images/courses-images/SD.png"
+              alt="SD"
+            />
+            <div class="course-description">
+              <h1>SD / MI</h1>
+              <div class="discount-class">
+                <p></p>
+                <p>Rp 0</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(2,425)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Free Trial Class</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="Free">
+            <img
+              src="../images/courses-images/SMP.png"
+              alt="SMP"
+            />
+            <div class="course-description">
+              <h1>SMP</h1>
+              <div class="discount-class">
+                <p></p>
+                <p>Rp 0</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(470)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Free Trial Class</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="Free">
+            <img
+              src="../images/courses-images/SMA.png"
+              alt="SMA"
+            />
+            <div class="course-description">
+              <h1>SMA</h1>
+              <div class="discount-class">
+                <p></p>
+                <p>Rp 0</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(2,825)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Free Trial Class</p>
+            </div>
+          </div>
+
+          <div class="course-card" data-filter="SMA">
+            <img
+              src="../images/courses-images/ips-sma.png"
+              alt="IPS"
+            />
+            <div class="course-description">
+              <h1>IPS</h1>
+              <div class="discount-class">
+                <p>Rp 700,000</p>
+                <p>Rp 350,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(370)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="SMA">
+            <img
+              src="../images/courses-images/mtk-sma.png"
+              alt="MTK"
+            />
+            <div class="course-description">
+              <h1>Matematika</h1>
+              <div class="discount-class">
+                <p>Rp 700,000</p>
+                <p>Rp 350,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(386)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+          <div class="course-card" data-filter="SMA">
+            <img
+              src="../images/courses-images/b.inggris-sma.png"
+              alt="b. inggris"
+            />
+            <div class="course-description">
+              <h1>Bahasa Inggris</h1>
+              <div class="discount-class">
+                <p>Rp 700,000</p>
+                <p>Rp 350,000</p>
+              </div>
+              <div class="class-rating">
+                <img src="../images/rating.webp" alt="class rating" />
+                <span>(416)</span>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <p>Garansi Sampai Bisa</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <h3>Muana<span>Bimbel</span></h3>
+        <p>Connecting Education People</p>
+        <div class="footer-icons">
+          <a href="https://instagram.com/muana.media"><i class="fa fa-instagram"></i></a>
+          <a href="https://linkedin.com/company/muana-bimbel"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="middle-footer">
+        <div class="box">
+          <h2>Products</h2>
+          <ul>
+            <li><a href="UI/services.html">Calistung</a></li>
+            <li><a href="UI/services.html">TK</a></li>
+            <li><a href="UI/services.html">SD/MI</a></li>
+            <li><a href="UI/services.html">SMP</a></li>
+            <li><a href="UI/services.html">SMA</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h2>Address</h2>
+          <ul>
+            <li>Jl. Putra, Langkapura,</li>
+            <li>Kec. Kemiling, Kota Bandar Lampung,</li>
+            <li>Lampung, Indonesia.</li>
+          </ul>
+        </div>
+      </div>
+      <p>Copyright &copy; 2024. Made with <i class="fas fa-heart"> </i> by <a href="https://muanamedia.com" target="_blank">Muana Bimbel</a></p>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/ba150134be.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../script.js"></script>
+</html>
